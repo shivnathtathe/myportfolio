@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(31, 28, 28) ;
+   
+}
+
+.logo{
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav ul a{
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    font-family: monospace;
+}
+.header{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+}
+.nav{
+    margin-left: 68%;
+    margin-top: 20px;
+}
+.header h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.nav ul a:hover{
+    color: rgb(255, 81, 0);
+
+}
+
+.header .nav ul a i{
+    margin-left: 3px;
+}
+#Home h1{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#Home h1 .text{
+    color: rgb(255, 81, 0);
+    font-size: 50px;
+}
+#Home h3{
+    margin-top: 5px;
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    margin-left: 200px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.buttons a{
+    font-family: monospace;
+    text-decoration: none;
+    width: 102px;
+    height: 4vh;
+    font-size: large;
+}
+.buttons .button1{
+    background-color: rgb(255, 81, 0);
+    border-radius: 4px;
+}
+.buttons .button2{
+    background-color: rgba(48, 51, 49, 0.897);
+    border-radius: 4px;
+}
+.icon i
+{   
+    margin-right: 300px;
+    margin-top: -262px;
+    float: right;
+    font-size: 300px;
+    text-shadow: 20px 20px 20px rgb(255, 81, 0);
+}
+
+
+.projects
+{
+    margin-top: 10%;
+    height: 100vh;
+    width: 100%;
+}
+.about{
+    /* background-color: aquamarine; */
+    /* align-items: center; */
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 150px;
+}
+.projectM h2{
+    font-family: monospace;
+    font-size: 38px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.scroll
+{
+    margin-top: 5cm;
+    background: transparent;
+    position: fixed;
+    font-size: 30px;
+}
+.scroll a
+{
+    margin-left: 39.3cm;
+    background: transparent;
+}
+.scroll a #Scroll{
+    background: transparent;
+    
+
+}
+.projects
+{
+    gap: 2px;
+    display: flex;
+    margin-left: 200px;
+    width:85%;
+    height:500PX;
+    border: none;
+   
+}
+.projects div
+{
+    height:250px;
+    width:250px;
+    background-color: rgba(67, 71, 69, 0.897);
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 9px 10px rgba(0, 0, 0, 0.897);
+}
+#Social{
+    margin-left: 200px;
+    font-family: monospace;
+    /* height: 100px;
+    width: 100%; */
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.Social a {
+    text-decoration: none;
+    font-size: 70px;
+}
+.Social{
+    display: flex;
+    gap: 70px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+#Contact{
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 28px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.Contact .input-desc{
+    height: 250px;
+    width: 1000px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(49, 52, 50, 0.897);
+    box-shadow: 2px 9px 10px rgba(0, 0, 0, 0.897);
+}
+.Contact{
+    height: 500px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+.Contact input::placeholder{
+    margin-left: 200px;
+}
+.Contact #input-email{
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+    height: 50px;
+    width: 1000px;
+    background-color: rgba(49, 52, 50, 0.897);
+    box-shadow: 2px 9px 10px rgba(0, 0, 0, 0.897);
+}
+.Contact #input-mobile{
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+    height: 50px;
+    width: 1000px;
+    background-color: rgba(49, 52, 50, 0.897);
+    box-shadow: 2px 9px 10px rgba(0, 0, 0, 0.897);
+}
+.Contact #submit-btn{
+    border: none;
+    border-radius: 6px;
+    margin-top: 40px;
+    height: 50px;
+    width: 1000px;
+    background-color: rgba(49, 52, 50, 0.897);
+    box-shadow: 2px 9px 10px rgba(0, 0, 0, 0.897);
+    cursor: pointer;
+}
+.Contact #submit-btn:hover{
+    background-color: rgb(255, 81, 0);
+}
+.empty
+{
+    height: 50px;
+    background: transparent;
+}
+.projects div a
+{
+    font-family: monospace;
+    position: relative;
+    text-decoration: none;
+    background: transparent;
+    /* height: 10px;
+    width: 100px; */
+    text-align: center;
+}
+.projects div a img
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+   
+}
+.projects div a img:hover
+{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
